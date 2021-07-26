@@ -1,0 +1,62 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  padding: 10px;
+  height: 20px;
+  background-color: #263252;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+.header svg {
+  margin-left: 20px;
+}
+
+.collection {
+  display: flex;
+  flex-direction: row;
+  gap: 1.8rem;
+
+}
+
+.collection-item {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.dynaPage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  background: no-repeat content-box url(C:\Users\patri\Documents\desafio-dynamox\react-dynamox\src\img\grafismo.png);
+  background-position: initial;
+  background-size: 100%;
+
+}
+
+.soluçaoDyna {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 94px;
+  color: white;
+  margin-left: 50px;
+}
+.logo-dynapredict {
+  width: 100px;
+  height:40px ;
+}
+.desktokMobile img {
+  height: 100%;
+  width: 100%;
+}
