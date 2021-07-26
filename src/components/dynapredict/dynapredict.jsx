@@ -1,5 +1,8 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
+import DesktopMobile from 'C:/Users/patri/Documents/desafio-dynamox/react-dynamox/src/components/img/3.png';
+import LogoDynaPredict from 'C:/Users/patri/Documents/desafio-dynamox/react-dynamox/src/components/img/logo-dynapredict.png'
+import FundoDesktop from 'C:/Users/patri/Documents/desafio-dynamox/react-dynamox/src/components/img/13.png'
 import './dynapredict.css';
 
 function Dynapredict() {
@@ -22,7 +25,6 @@ function Dynapredict() {
             </svg>
           </Typography>
 
-          <Typography variant="h6" className="">
             <div className="menu">
               <ul className="collection">
                 <a href="#!" className="collection-item">DynaPredict</a>
@@ -30,17 +32,18 @@ function Dynapredict() {
                 <a href="#!" className="collection-item">Contato</a>
               </ul>
             </div>
-          </Typography>
+       
         </Toolbar>
       </AppBar>
 
       <div className="dynaPage">
         <div className="soluçaoDyna">
           <h1>Solução<br></br> DynaPredict</h1>
-          <img className="logo-dynapredict"src="C:\Users\patri\Documents\desafio-dynamox\react-dynamox\src\img\logo-dynapredict.png" alt="" />
+          <img className="logo-dynapredict"src={LogoDynaPredict} alt="" />
         </div>
-        <div className="desktokMobile">
-          <img src="./src/img/3.png" alt="deskto" />
+        <div className="desktop">
+          <img src={DesktopMobile} alt="desktopMobile" className="desktopMobile"/>
+          <img src={FundoDesktop} alt="fundoDesktop" className="fundoDesktop"/>
         </div>
       </div>
     </>

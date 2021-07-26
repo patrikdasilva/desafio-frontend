@@ -39,7 +39,7 @@ html {
   justify-content: space-between;
   width: 100%;
   min-height: 100vh;
-  background: no-repeat content-box url(C:\Users\patri\Documents\desafio-dynamox\react-dynamox\src\img\grafismo.png);
+  background: no-repeat content-box url(C:\Users\patri\Documents\desafio-dynamox\react-dynamox\src\components\img\grafismo.png);
   background-position: initial;
   background-size: 100%;
 
@@ -52,11 +52,27 @@ html {
   color: white;
   margin-left: 50px;
 }
+
 .logo-dynapredict {
-  width: 100px;
-  height:40px ;
+  width: 200px;
+  height: 40px;
 }
-.desktokMobile img {
-  height: 100%;
-  width: 100%;
+
+.desktopMobile {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  z-index: 2;
+  left: 650px;
+  top: 90px;
+}
+
+.fundoDesktop {
+  position: absolute;
+  width: 381px;
+  height: 400px;
+  left: 900px;
+  top: 80px;
+  z-index: 1;
+
 }
